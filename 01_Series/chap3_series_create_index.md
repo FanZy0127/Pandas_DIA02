@@ -56,7 +56,7 @@ La population de chaque ville augmente de 10%, appliquez ce changement sur le da
 
 ## Exercice Series & index
 
-Associez les index subjects ci-dessous à l'objet **Series** notes et calculez la moyenne générale de ces notes, donnez églament la médiane.
+Associez les index subjects ci-dessous à l'objet **Series** notes et calculez la moyenne générale de ces notes, donnez également la médiane.
 
 ```python
 notes = pd.Series([13.4, 20, 10, 15, 14, 16])
