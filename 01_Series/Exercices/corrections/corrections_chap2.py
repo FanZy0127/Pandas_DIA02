@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-# Exercice création d'objet "Séries" avec un dictionnaire Python
+# # Exercice création d'objet "Séries" avec un dictionnaire Python # #
 
 cities = pd.Series({
     'Bordeaux': 249712,
@@ -13,7 +13,7 @@ print(cities)
 print(cities.Paris)
 print(cities["Paris"])
 
-# Exercice construire des objets de type Séries
+# # Exercice construire des objets de type Séries # #
 
 values = range(1, 12, 2)
 index = 'abcdef'
@@ -22,7 +22,7 @@ A = pd.Series(values, index=list(index))
 
 print(A)
 
-# Exercice changez les index
+# # Exercice changez les index # #
 
 cities = {
     'Bordeaux': 249712,
@@ -44,3 +44,14 @@ print(f'Villes dont la population est supérieure à 2 000 000 : {cities_serie[m
 # Augmentation de 10%
 cities_serie = cities_serie * 1.1
 print(cities_serie)
+
+# # Exercice Series & index # #
+
+notes = pd.Series([13.4, 20, 10, 15, 14, 16])
+
+subjects = ['Databases', 'Culture', 'Git', 'Stat desc', 'Stat inf', 'Python']
+
+notes.index = subjects
+print(notes)
+print(f'Moyenne des notes : {round(notes.mean(), 2)}')
+print(f'Médiane des notes : {notes.median()}')
