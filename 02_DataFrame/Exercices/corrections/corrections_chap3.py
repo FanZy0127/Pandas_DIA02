@@ -43,3 +43,22 @@ print(f'Preuve du nombre d\'occurrences de la valeur 13 : {matrix_df[matrix_df =
 
 print(f'Dictionnaire regroupant les occurrences de chaque valeur du dataframe : \n{dictionary}')
 
+'''
+OU ENCORE 
+
+dictionary = df[[i for i in list("ABCDEFGHIJ")]].stack().value_counts().to_dict()
+
+OU BIEN ENFIN 
+
+# .to_numpy() pour pouvoir reshape pour faire une matrice 1 x (df.size) (Tableau)
+df1 = df.to_numpy().reshape(1,df.size)[0]
+print(df1)
+
+# np.unique(<tableau>, return_counts=True) => return un tableau avec chacune des valeur unique + un tableau des occurences pour chaque valeur
+counts = np.unique(df1, return_counts=True)
+counts
+
+# création d'un dictionnaire avec clé = valeur unique : valeur = occurence de cette valeur 
+count_dic = {counts[0][x]:counts[1][x] for x in range(0,counts[0].size)}
+count_dic
+'''
