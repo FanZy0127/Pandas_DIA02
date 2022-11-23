@@ -33,7 +33,7 @@ bitcoins =pd.read_csv('data/Cours_BTC2FEUR_-_Feuille_1.csv')
 bitcoins.head()
 ```
 
-1. Nettoyer la colonne Prix pour avoir cette colonne dans le type flaot.
+1. Nettoyer la colonne Prix pour avoir cette colonne dans le type float.
 
 2. Représentez graphiquement le cours du Bitcoin.
 
