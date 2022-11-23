@@ -2,23 +2,6 @@ import numpy as np
 import pandas as pd
 
 
-# # Exercice création de DataFrame # #
-
-fruits1 = pd.DataFrame({
-    "Raspberry": 30,
-    "Cherries": 20
-}, index=np.arange(1))
-
-print(fruits1)
-
-fruits2 = pd.DataFrame({
-    "fig": [130, 309],
-    "wine": [120, 290]
-}, index=[2020, 2019])
-
-print(fruits2)
-
-
 # # Exercices manipulation des index & column # #
 
 df = pd.DataFrame(
@@ -94,5 +77,3 @@ mean_pos_b = sum_pos_b / len(D[pos_b])
 print(mean_pos_b)
 D[neg_b] = mean_pos_b
 print(D)
-
-
