@@ -17,7 +17,7 @@ boston = pd.read_csv('../data/boston.csv')
 1. Formatez les données de la colonne TOTAL EARNINGS pour les rendre compatibles avec un type numérique. Vous utilisez la méthode astype, voyez exemple ci-dessous :
 
 ```python
-df[colunm].astype(float)
+df[column].astype(float)
 ```
 
 2. Ordonnez les écarts par ordre décroissant.
