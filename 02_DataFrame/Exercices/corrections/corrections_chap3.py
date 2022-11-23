@@ -80,3 +80,26 @@ matrix_A = pd.DataFrame(
 print(f'Dataframe de la matrice A : \n{matrix_A}')
 
 
+# Moyennes
+
+print(f'Moyenne des lignes : \n{matrix_A.mean(axis=0)}')
+print(f'Moyenne des colonnes : {matrix_A.mean(axis=1)}')
+
+# 2. Ajoutez la matrice B à l'unique colonne de la matrice A possible.
+# Puis faites la somme en ligne, puis en colonne en utilisant la transposition.
+
+matrix_B = pd.DataFrame([11, 6, 4, 8, 0, 9, 7, 8, 13], index=list("abcdefghi"), columns=['A'])
+print(f'Matrice A : \n{matrix_A}', f'\nMatrice B : \n{matrix_B}')
+matrix_A['A'] = matrix_B['A'] + matrix_A['A']
+print(f'Nouvelle matrice A : \n{matrix_A}')
+
+print(f'Somme des colonnes de la nouvelle matrice A : \n{matrix_A.sum()}')
+print(f'Somme des lignes de la nouvelle matrice A : \n{matrix_A.T.sum()}')
+
+# 3. Calculez les pourcentages des valeurs par ligne, puis par colonne en utilisant la technique de la transposition.
+
+# Pourcentages par ligne
+print(f'Pourcentage des valeurs par ligne : \n{round((matrix_A.T / matrix_A.T.sum()).T * 100, 2)}')
+
+# Pourcentages par colonne
+print(f'Pourcentage des valeurs par colonne : \n{round(matrix_A/matrix_A.sum() * 100, 2)}')
