@@ -70,7 +70,7 @@ Vous enregistrerez ce fichier à la racine de vos notebooks, puis importez le da
 tips = pd.read_csv('data/tips.csv')
 ```
 
-1. Ajoutez une colonne **tips_perct** au DataFrame tips, elle calculera le pourcentage de chaque pourboire par rapport au total des pourboires.
+1. Ajoutez une colonne **tips_perct** au DataFrame tips, elle calculera le pourcentage de chaque pourboire par rapport au total de l'addition.
 
 2. Quelles sont les pourcentages des pourboires par rapport au sex et à la consommation de tabac ? Donnez leurs moyennes et écarts types.
 
