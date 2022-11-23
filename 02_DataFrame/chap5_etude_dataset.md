@@ -20,7 +20,7 @@ boston = pd.read_csv('../data/boston.csv')
 df[column].astype(float)
 ```
 
-2. Ordonnez les écarts par ordre décroissant.
+2. Groupez par DEPARTMENT_NAME, puis ordonnez les écarts de TOTAL EARNINGS par ordre décroissant.
 
 ## Exercice Bitcoin
 
