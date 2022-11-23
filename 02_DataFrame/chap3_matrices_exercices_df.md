@@ -119,4 +119,4 @@ A.mean(axis = 1)
 B = pd.DataFrame([11, 6, 4, 8, 0, 9, 7, 8, 13], index=list("abcdefghi"), columns=['A'])
 ```
 
-3. Calculez les pourcentages des valeurs par ligne, puis par colonne en utilisant la technique de la transposée.
+3. Calculez les pourcentages des valeurs par ligne, puis par colonne en utilisant la technique de la transposition.
