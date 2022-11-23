@@ -62,3 +62,21 @@ counts
 count_dic = {counts[0][x]:counts[1][x] for x in range(0,counts[0].size)}
 count_dic
 '''
+
+# 4. Faites la somme des nombres pairs de chaque ligne.
+
+df_even_numbers_per_row = matrix_df[matrix_df.apply(lambda x: x % 2 == 0)].sum()
+print(f'Nouveau Dataframe avec la somme des nombres pairs de chaque ligne : \n{df_even_numbers_per_row}')
+
+
+# # Exercice introduction aux notions d'agrégation # #
+
+matrix_A = pd.DataFrame(
+    np.arange(1, 10) * np.arange(1, 10).reshape(9, 1),
+    index=list("abcdefghi"),
+    columns=list("abcdefghi".upper())
+)
+
+print(f'Dataframe de la matrice A : \n{matrix_A}')
+
+
