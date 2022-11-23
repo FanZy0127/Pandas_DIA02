@@ -29,7 +29,7 @@ df.groupby(['Animal'])
 
 ![groupby appliquer une fonction d'agrégation](images//groupby001.png)
 
-Voic le schéma général du groupby dans Pandas :
+Voici le schéma général du groupby dans Pandas :
 
 ![groupby schéma](images/groupby003.png)
 
