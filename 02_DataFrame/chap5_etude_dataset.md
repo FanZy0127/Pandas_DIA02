@@ -39,7 +39,7 @@ bitcoins.head()
 
 ![cour du bitcoin](images/bitcoins_graph.png)
 
-## Exercice Nuage de points
+## Exercice Histogramme
 
 Soit le dataset suivant :
 
