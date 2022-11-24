@@ -47,7 +47,7 @@ Soit le dataset suivant :
 
 dataset = {
     'name':['john','mary','peter','jeff','bill','lisa','jose'],
-    'married' : ['yes', 'yes', 'no', 'yes', 'no', 'no', 'yes', 'no'],
+    'married' : ['yes', 'yes', 'no', 'yes', 'no', 'no', 'yes'],
     'age':[23,78,22,19,45,33,20],
     'genre':['M','F','M','M','M','F','M'],
     'state':['Paris','Lille','Paris','Lille','Paris','Bordeaux','Bordeaux'],
