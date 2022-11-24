@@ -46,13 +46,13 @@ Soit le dataset suivant :
 ```python
 
 dataset = {
-    'name':['john','mary','peter','jeff','bill','lisa','jose'],
-    'married' : ['yes', 'yes', 'no', 'yes', 'no', 'no', 'yes'],
-    'age':[23,78,22,19,45,33,20],
-    'genre':['M','F','M','M','M','F','M'],
-    'state':['Paris','Lille','Paris','Lille','Paris','Bordeaux','Bordeaux'],
-    'num_children':[3,0,2,4,3,1,5],
-    'num_pet':[5,1,0,5,2,2,3]
+    'name': ['john', 'mary', 'peter', 'jeff', 'bill', 'lisa', 'jose'],
+    'married': ['yes', 'yes', 'no', 'yes', 'no', 'no', 'yes'],
+    'age': [23, 78, 22, 19, 45, 33, 20],
+    'genre': ['M', 'F', 'M', 'M', 'M', 'F', 'M'],
+    'state': ['Paris', 'Lille', 'Paris', 'Lille', 'Paris', 'Bordeaux', 'Bordeaux'],
+    'num_children': [3, 0, 2, 4, 3, 1, 5],
+    'num_pet': [5, 1, 0, 5, 2, 2, 3]
 }
 
 ```
