@@ -20,7 +20,7 @@ Récupérez les sources names.zip à l'adresse suivante : [baby](https://www.ssa
 
 ## Création du DataFrame names
 
-3. Créez un script permettant de récupérer les prénons de 1880 à 2018 à partir des fichiers du dossier names et utiliser la méthode concat pour les rassembler. Utilisez la méthode concat de Pandas, vous pouvez également pour plus cohérence au niveau des index dans l'agrégation des données, ignorer les index de chaque DataFrame, avec le paramètre ignore_index = True dans la méthode concat. Dans ce cas les index seront 0 ... n-1 dans le DataFrame agrégé.
+3. Créez un script permettant de récupérer les prénoms de 1880 à 2018 à partir des fichiers du dossier names et utiliser la méthode concat pour les rassembler. Utilisez la méthode concat de Pandas, vous pouvez également pour plus cohérence au niveau des index dans l'agrégation des données, ignorer les index de chaque DataFrame, avec le paramètre ignore_index = True dans la méthode concat. Dans ce cas les index seront 0 ... n-1 dans le DataFrame agrégé.
 
 ## Création du DataFrame total_births
 
